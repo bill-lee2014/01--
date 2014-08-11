@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ 用来声明属性和方法
+ */
 @interface HMViewController : UIViewController
+
+@property (nonatomic, weak) IBOutlet UITextField *num1;
+@property (nonatomic, weak) IBOutlet UITextField *num2;
+
+@property (nonatomic, weak) IBOutlet UILabel *resultLabel;
+
+/** 计算 */
+- (IBAction)compute;
 
 @end
