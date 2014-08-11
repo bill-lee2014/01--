@@ -21,6 +21,7 @@
 		1858297D1998718900300521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1858295F1998718900300521 /* UIKit.framework */; };
 		185829851998718900300521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 185829831998718900300521 /* InfoPlist.strings */; };
 		185829871998718900300521 /* _1______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185829861998718900300521 /* _1______Tests.m */; };
+		185829911998A52800300521 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185829901998A52800300521 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		185829821998718900300521 /* 01-加法计算器Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-加法计算器Tests-Info.plist"; sourceTree = "<group>"; };
 		185829841998718900300521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		185829861998718900300521 /* _1______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1______Tests.m"; sourceTree = "<group>"; };
+		185829901998A52800300521 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				1858296A1998718900300521 /* HMAppDelegate.h */,
 				1858296B1998718900300521 /* HMAppDelegate.m */,
 				1858296D1998718900300521 /* Main.storyboard */,
+				185829901998A52800300521 /* Storyboard.storyboard */,
 				185829701998718900300521 /* HMViewController.h */,
 				185829711998718900300521 /* HMViewController.m */,
 				185829731998718900300521 /* Images.xcassets */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185829741998718900300521 /* Images.xcassets in Resources */,
+				185829911998A52800300521 /* Storyboard.storyboard in Resources */,
 				185829661998718900300521 /* InfoPlist.strings in Resources */,
 				1858296F1998718900300521 /* Main.storyboard in Resources */,
 			);
