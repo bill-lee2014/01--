@@ -36,6 +36,17 @@
     
     // 3. 显示结果，显示在"右侧的标签"中
     self.resultLabel.text = [NSString stringWithFormat:@"%d", result];
+    
+    // 4. 关闭键盘
+    // 在所有的面相对象语言中，有一个原则：谁申请，谁释放！
+    // 对应键盘就应该，谁打开，谁关闭！
+    // FirstResponder：光标所在的文本框
+    // resign: 辞去
+//    [self.num1 resignFirstResponder];
+//    [self.num2 resignFirstResponder];
+    // 让视图关闭键盘，无论现在谁是第一响应者
+    // 参数表示是否强行关闭键盘，始终使用YES作为参数即可。
+    [self.view endEditing:YES];
 }
 
 @end
