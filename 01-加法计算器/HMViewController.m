@@ -35,6 +35,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"=========");
     NSLog(@"12342432432");
+    NSLog(@"fuck me");
+    NSLog(@"fuck myself");
 }
 
 - (void)sumA:(int)a withB:(int)b {
