@@ -8,8 +8,22 @@
 
 #import "HMViewController.h"
 
-@interface HMViewController ()
+/**
+ IBAction本质上就是void，只不过能够允许连线而已
+ */
 
+// "私有扩展"，Xcode 4.6开始，苹果建议不开放的属性和方法定义在私有扩展中
+// 可以保证.h中只定义对外开放的属性和方法
+@interface HMViewController ()
+@property (nonatomic, weak) IBOutlet UITextField *num1;
+@property (nonatomic, weak) IBOutlet UITextField *num2;
+//@property (nonatomic, strong ) IBOutlet UITextField *num3;
+//@property (nonatomic, strong) IBOutlet UITextField *num3;
+//@property (nonatomic,strong) IBAction UIImage *icon
+@property (nonatomic, weak) IBOutlet UILabel *resultLabel;
+
+/** 计算 */
+//- (IBAction)compute;
 @end
 
 @implementation HMViewController
@@ -20,9 +34,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     NSLog(@"=========");
+    NSLog(@"12342432432");
 }
 
-- (void)compute
+- (void)sumA:(int)a withB:(int)b {
+    
+}
+
+- (IBAction)compute
 {
     NSLog(@"compute");
     // 1. 取得界面上"两个文本框"的内容

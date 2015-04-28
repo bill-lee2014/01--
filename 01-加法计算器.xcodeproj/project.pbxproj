@@ -461,6 +461,7 @@
 				1858298C1998718900300521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1858298D1998718900300521 /* Build configuration list for PBXNativeTarget "01-加法计算器Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				1858298F1998718900300521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
